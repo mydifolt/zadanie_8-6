@@ -12,6 +12,8 @@ console.log('Wynik wynosi: ' + value);
 //następnie za pomocą instrukcji warunkowej sprawdź, czy wynik jest dodatni czy ujemny, a potem wyświetl informację wynik dodatni lub wynik ujemny w konsoli.
 //Dodaj instrukcję, która sprawdzi, czy wynik jest równy zero i wyświetli tę informację.
 
-if ( value > 0) { console.log('wynik jest dodatni od zera')} 
-	else if ( value < 0 ) {console.log('wynik jest ujemny')}
-		if ( value = 0) { console.log('wynik jest równy zero')}
+if ( value > 0) { 
+	console.log('wynik jest dodatni od zera');
+} else if ( value < 0 ) {
+	console.log('wynik jest ujemny');
+} if ( value = 0) { console.log('wynik jest równy zero');}
